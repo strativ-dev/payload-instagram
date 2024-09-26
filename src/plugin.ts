@@ -8,7 +8,7 @@ import newCollection from './newCollection'
 
 type PluginType = (pluginOptions: PluginTypes) => Plugin
 
-export const samplePlugin =
+export const instagramPlugin =
   (pluginOptions: PluginTypes): Plugin =>
   incomingConfig => {
     let config = { ...incomingConfig }
