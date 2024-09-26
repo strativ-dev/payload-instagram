@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import payload from 'payload'
 import './index.scss'
 
 const baseClass = 'after-dashboard'

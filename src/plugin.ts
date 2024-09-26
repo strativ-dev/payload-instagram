@@ -1,4 +1,5 @@
 import type { Config, Plugin } from 'payload/config'
+import path from 'path'
 
 import { onInitExtension } from './onInitExtension'
 import type { PluginTypes } from './types'
@@ -21,6 +22,8 @@ export const instagramPlugin =
       // If you extended the webpack config, add it back in here
       // If you did not extend the webpack config, you can remove this line
       webpack,
+
+      css: path.resolve(__dirname, './components/AfterDashboard/index.scss'),
 
       // Add additional admin config here
 
