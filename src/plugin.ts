@@ -23,7 +23,7 @@ export const instagramPlugin =
       // If you did not extend the webpack config, you can remove this line
       webpack,
 
-      css: path.resolve(__dirname, './components/AfterDashboard/index.scss'),
+      css: path.resolve(__dirname, '../src/components/AfterDashboard/index.scss'),
 
       // Add additional admin config here
 
