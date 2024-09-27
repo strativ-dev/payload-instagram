@@ -1,6 +1,6 @@
 {
   "name": "@strativ/payloadcms-instagram",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage:": "https://payloadcms.com",
   "repository": "git@github.com:strativ-dev/payload-instagram.git",
   "description": "Blank plugin template for Payload",
