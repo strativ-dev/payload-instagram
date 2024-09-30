@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from 'react'
-import './index.scss'
+import React, { FC, useEffect, useState } from 'react'
+// import './index.scss'
 
-const baseClass = 'after-dashboard'
+// const baseClass = 'after-dashboard'
 
 interface Props {
   facebookAccountId?: string
   facebookAppId?: string
 }
 
-const AfterDashboard: React.FC<Props> = ({ facebookAccountId, facebookAppId }) => {
+const AfterDashboard: FC<Props> = ({ facebookAccountId, facebookAppId }) => {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const [mediaData, setMediaData] = useState([])
 
@@ -92,7 +92,7 @@ const AfterDashboard: React.FC<Props> = ({ facebookAccountId, facebookAppId }) =
   }
 
   return (
-    <div className={baseClass}>
+    <div>
       <h4>Instagram Plugin</h4>
       <p>This plugin allows you to connect to Instagram and fetch media data from your account.</p>
       <p>
